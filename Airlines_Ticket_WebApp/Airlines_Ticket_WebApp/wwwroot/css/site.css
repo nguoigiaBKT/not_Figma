@@ -1,0 +1,71 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+
+.form-floating-custom {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .form-floating-custom input {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        font-size: 16px;
+    }
+
+    .form-floating-custom label {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #666;
+        background: white;
+        padding: 0 5px;
+        transition: all 0.3s ease;
+    }
+
+    .form-floating-custom input:focus,
+    .form-floating-custom input:not(:placeholder-shown) {
+        border-color: #007bff;
+    }
+
+        .form-floating-custom input:focus + label,
+        .form-floating-custom input:not(:placeholder-shown) + label {
+            top: 0;
+            left: 10px;
+            font-size: 12px;
+            color: #007bff;
+        }
+

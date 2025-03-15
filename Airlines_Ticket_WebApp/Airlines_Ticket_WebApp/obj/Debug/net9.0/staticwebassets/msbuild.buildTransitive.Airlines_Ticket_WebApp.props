@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Airlines_Ticket_WebApp.props" />
+</Project>
