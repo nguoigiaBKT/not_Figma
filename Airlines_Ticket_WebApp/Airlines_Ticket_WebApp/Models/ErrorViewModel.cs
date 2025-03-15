@@ -1,4 +1,4 @@
-namespace Airlines_Ticket_WebApp.Models
+namespace Booking_Airline.Models
 {
     public class ErrorViewModel
     {

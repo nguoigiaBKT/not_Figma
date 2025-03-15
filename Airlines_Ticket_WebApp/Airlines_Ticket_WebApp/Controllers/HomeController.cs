@@ -1,8 +1,10 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Airlines_Ticket_WebApp.Models;
+using Booking_Airline.Models;
 
-namespace Airlines_Ticket_WebApp.Controllers;
+
+namespace Airlines_Ticket_WebApp.Models;
 
 public class HomeController : Controller
 {
