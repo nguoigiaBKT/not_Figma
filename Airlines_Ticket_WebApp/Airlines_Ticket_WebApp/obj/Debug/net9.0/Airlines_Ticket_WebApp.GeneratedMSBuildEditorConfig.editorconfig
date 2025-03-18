@@ -17,41 +17,93 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Airlines_Ticket_WebApp
 build_property.RootNamespace = Airlines_Ticket_WebApp
-build_property.ProjectDir = D:\HUTECH\LapTrinhWeb\not_Figma\Airlines_Ticket_WebApp\Airlines_Ticket_WebApp\
+build_property.ProjectDir = D:\DataDownloaded\webclone\not_Figma\Airlines_Ticket_WebApp\Airlines_Ticket_WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\HUTECH\LapTrinhWeb\not_Figma\Airlines_Ticket_WebApp\Airlines_Ticket_WebApp
+build_property.MSBuildProjectDirectory = D:\DataDownloaded\webclone\not_Figma\Airlines_Ticket_WebApp\Airlines_Ticket_WebApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/HUTECH/LapTrinhWeb/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Home/Index.cshtml]
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Flights/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Flights/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Flights/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Flights/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Flights/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HUTECH/LapTrinhWeb/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Home/Privacy.cshtml]
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HUTECH/LapTrinhWeb/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Shared/Error.cshtml]
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HUTECH/LapTrinhWeb/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HUTECH/LapTrinhWeb/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/_ViewImports.cshtml]
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Tickets/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Tickets/BookingConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xCb29raW5nQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Tickets/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Tickets/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Tickets/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Tickets/GetEticket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xHZXRFdGlja2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Tickets/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HUTECH/LapTrinhWeb/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/_ViewStart.cshtml]
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HUTECH/LapTrinhWeb/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Shared/_Layout.cshtml]
+[D:/DataDownloaded/webclone/not_Figma/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3cfer6fw8x

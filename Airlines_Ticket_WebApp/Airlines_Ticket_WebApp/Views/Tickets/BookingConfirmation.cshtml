@@ -1,0 +1,38 @@
+﻿@model Airlines_Ticket_WebApp.Models.Booking
+
+@{
+    ViewData["Title"] = "Booking Confirmation";
+}
+
+<h1>Booking Confirmation</h1>
+
+<div>
+    <h4>Booking Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Flight
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Flight.Airline
+        </dd>
+        <dt class="col-sm-2">
+            Customer
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Customer.Customer_Name
+        </dd>
+        <dt class="col-sm-2">
+            Seat Class
+        </dt>
+        <dd class="col-sm-10">
+            @Model.SeatClass.ClassName
+        </dd>
+        <dt class="col-sm-2">
+            Seat Number
+        </dt>
+        <dd class="col-sm-10">
+            @Model.SeatNumber
+        </dd>
+    </dl>
+</div>

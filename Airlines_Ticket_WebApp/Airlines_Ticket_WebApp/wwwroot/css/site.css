@@ -1,71 +1,431 @@
-﻿html {
-  font-size: 14px;
+﻿/* ===========================
+       1. Global Resets & Layout
+       =========================== */
+
+html {
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    html {
+        font-size: 16px;
+    }
 }
 
 body {
-  margin-bottom: 60px;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff; /* White page background */
+    min-height: 100%;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+/* ===========================
+       2. Top Navigation (Booking / Purchase / E-Ticket)
+       =========================== */
+.nav-pills .nav-link {
+    color: #7a00f3; /* Purple text for inactive links */
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    font-weight: 500;
 }
 
+    .nav-pills .nav-link.active {
+        background-color: #7a00f3;
+        color: #fff;
+        font-weight: 500;
+        box-shadow: 0 0 0 2px rgba(122, 0, 243, 0.2); /* Subtle glow */
+    }
 
-.form-floating-custom {
+    .nav-pills .nav-link.disabled {
+        opacity: 0.65;
+        cursor: not-allowed;
+        color: #6c757d;
+    }
+
+/* ===========================
+       3. Section Headings (Pink)
+       =========================== */
+h4 {
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    color: #ff3465; /* Vivid pink/red */
     position: relative;
-    margin-bottom: 20px;
+    padding-left: 1.5rem; /* Space for the pink bullet */
 }
 
-    .form-floating-custom input {
-        width: 100%;
-        padding: 10px;
-        border: 2px solid #ccc;
-        border-radius: 5px;
-        outline: none;
-        font-size: 16px;
-    }
-
-    .form-floating-custom label {
+    /* Pink bullet to the left of each h4 */
+    h4::before {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background-color: #ff3465;
+        border-radius: 50%;
         position: absolute;
-        left: 10px;
-        top: 50%;
-        transform: translateY(-50%);
-        color: #666;
-        background: white;
-        padding: 0 5px;
-        transition: all 0.3s ease;
+        left: 0;
+        top: 6px;
     }
 
-    .form-floating-custom input:focus,
-    .form-floating-custom input:not(:placeholder-shown) {
-        border-color: #007bff;
+/* ===========================
+       4. Identity Panel (Pink Background)
+       =========================== */
+.identity-panel {
+    background-color: #ffeaf0; /* Light pink background */
+    border: 1px solid #ffccd6; /* Slightly darker pink border */
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    color: #ff3465; /* Pink text */
+    font-size: 0.875rem; /* Slightly smaller text */
+}
+
+/* ===========================
+       5. Form Controls
+       =========================== */
+.form-group label {
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.form-control {
+    border-radius: 4px;
+    min-height: 40px;
+    border: 1px solid #ced4da; /* Light gray border */
+}
+
+    .form-control::placeholder {
+        color: #6c757d;
+        opacity: 0.8;
     }
 
-        .form-floating-custom input:focus + label,
-        .form-floating-custom input:not(:placeholder-shown) + label {
-            top: 0;
-            left: 10px;
-            font-size: 12px;
-            color: #007bff;
+.form-row {
+    margin-bottom: 1rem;
+}
+
+/* ===========================
+       6. Submit Button
+       =========================== */
+.btn-primary {
+    background-color: #7a00f3;
+    border-color: #7a00f3;
+    border-radius: 25px; /* Pill-shaped corners */
+    font-weight: 500;
+    padding: 0.6rem 2rem; /* Larger clickable area */
+    font-size: 1rem; /* Slightly bigger text */
+}
+
+    .btn-primary:hover {
+        background-color: #6900d9;
+        border-color: #6900d9;
+    }
+
+/* ===========================
+       7. Price & Flight Details
+       =========================== */
+.border {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+    .border.p-3 {
+        padding: 1rem !important;
+    }
+
+    .border ul {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+        .border ul li {
+            margin-bottom: 0.5rem;
         }
 
+            /* Make "Total" stand out a bit */
+            .border ul li strong {
+                font-size: 1rem;
+            }
+
+/* ===========================
+       8. Utility Classes
+       =========================== */
+.mb-1 {
+    margin-bottom: 0.25rem !important;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+/* ===========================
+       9. Responsive Tweaks
+       =========================== */
+@media (max-width: 767.98px) {
+    .nav-pills .nav-link {
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Login/Register Form Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.login-container {
+    position: relative;
+    width: 850px;
+    height: 550px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+
+.login-container h1 {
+    font-size: 36px;
+    margin: -10px 0;
+}
+
+.login-container p {
+    font-size: 14.5px;
+    margin: 15px 0;
+}
+
+.login-container form { 
+    width: 100%; 
+}
+
+.form-box {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-align: center;
+    padding: 40px;
+    z-index: 1;
+    transition: .6s ease-in-out 1.2s, visibility 0s 1s;
+}
+
+.login-container.active .form-box { 
+    right: 50%; 
+}
+
+.form-box.register { 
+    visibility: hidden; 
+}
+.login-container.active .form-box.register { 
+    visibility: visible; 
+}
+
+.input-box {
+    position: relative;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 13px 50px 13px 20px;
+    background: #eee;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.input-box input::placeholder {
+    color: #888;
+    font-weight: 400;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.forgot-link { 
+    margin: -15px 0 15px; 
+}
+.forgot-link a {
+    font-size: 14.5px;
+    color: #333;
+}
+
+.login-btn {
+    width: 100%;
+    height: 48px;
+    background: #7494ec;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    display: inline-flex;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 24px;
+    color: #333;
+    margin: 0 8px;
+}
+
+.toggle-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.toggle-box::before {
+    content: '';
+    position: absolute;
+    left: -250%;
+    width: 300%;
+    height: 100%;
+    background: #7494ec;
+    border-radius: 150px;
+    z-index: 2;
+    transition: 1.8s ease-in-out;
+}
+
+.login-container.active .toggle-box::before { 
+    left: 50%; 
+}
+
+.toggle-panel {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transition: .6s ease-in-out;
+}
+
+.toggle-panel.toggle-left { 
+    left: 0;
+    transition-delay: 1.2s; 
+}
+.login-container.active .toggle-panel.toggle-left {
+    left: -50%;
+    transition-delay: .6s;
+}
+
+.toggle-panel.toggle-right { 
+    right: -50%;
+    transition-delay: .6s;
+}
+.login-container.active .toggle-panel.toggle-right {
+    right: 0;
+    transition-delay: 1.2s;
+}
+
+.toggle-panel p { 
+    margin-bottom: 20px; 
+}
+
+.toggle-panel .login-btn {
+    width: 160px;
+    height: 46px;
+    background: transparent;
+    border: 2px solid #fff;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 650px) {
+    .login-container { 
+        height: calc(100vh - 40px); 
+    }
+
+    .form-box {
+        bottom: 0;
+        width: 100%;
+        height: 70%;
+    }
+
+    .login-container.active .form-box {
+        right: 0;
+        bottom: 30%;
+    }
+
+    .toggle-box::before {
+        left: 0;
+        top: -270%;
+        width: 100%;
+        height: 300%;
+        border-radius: 20vw;
+    }
+
+    .login-container.active .toggle-box::before {
+        left: 0;
+        top: 70%;
+    }
+
+    .login-container.active .toggle-panel.toggle-left {
+        left: 0;
+        top: -30%;
+    }
+
+    .toggle-panel { 
+        width: 100%;
+        height: 30%;
+    }
+    .toggle-panel.toggle-left { 
+        top: 0; 
+    }
+    .toggle-panel.toggle-right {
+        right: 0;
+        bottom: -30%;
+    }
+
+    .login-container.active .toggle-panel.toggle-right { 
+        bottom: 0; 
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form-box { 
+        padding: 20px; 
+    }
+    .toggle-panel h1 { 
+        font-size: 30px; 
+    }
+}

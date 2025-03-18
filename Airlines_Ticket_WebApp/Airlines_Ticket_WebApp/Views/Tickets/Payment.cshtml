@@ -1,0 +1,374 @@
+@model Airlines_Ticket_WebApp.Models.Payment
+@{
+    ViewData["Title"] = "Phương thức thanh toán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2 class="font-weight-bold">Phương thức thanh toán</h2>
+        </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="row mb-5">
+        <div class="col-12">
+            <div class="progress" style="height: 4px; background-color: #e9ecef;">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 66%;" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="d-flex justify-content-between mt-2">
+                <div class="text-center">
+                    <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center mx-auto" style="width: 25px; height: 25px;">✓</div>
+                    <small>Booking</small>
+                </div>
+                <div class="text-center">
+                    <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center mx-auto" style="width: 25px; height: 25px;">2</div>
+                    <small>Purchase</small>
+                </div>
+                <div class="text-center">
+                    <div class="rounded-circle bg-light d-flex align-items-center justify-content-center mx-auto" style="width: 25px; height: 25px; border: 1px solid #ccc;">3</div>
+                    <small>Get your E-ticket</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- For Testing - E-ticket Button -->
+    <div class="row mb-3">
+        <div class="col-12">
+            <div class="alert alert-info">
+                <div class="d-flex align-items-center justify-content-between">
+                    <span><i class="fas fa-info-circle"></i> Đang trong quá trình test</span>
+                    <a href="@Url.Action("GetEticket", "Tickets")" class="btn btn-primary">
+                        <i class="fas fa-ticket-alt"></i> Chuyển đến E-ticket
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Left column for payment methods -->
+        <div class="col-md-8">
+            <form method="post">
+                <!-- Promotion section -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <div class="form-group d-flex align-items-center">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="promoCheck">
+                                <label class="form-check-label" for="promoCheck">
+                                    Mã khuyến mãi hoặc phiếu quà tặng
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Payment methods section -->
+                <div class="card mb-4">
+                    <div class="card-header bg-white">
+                        <h5 class="mb-0">Phương thức thanh toán</h5>
+                        <small class="text-muted">Được xử lý bởi Công thanh toán: <img src="https://via.placeholder.com/80x20" alt="Galaxy Pay" class="ml-2"></small>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-4">
+                            <div class="col-3 text-center">
+                                <div class="card p-2 mb-2">
+                                    <img src="https://via.placeholder.com/50x30" alt="Credit cards" class="img-fluid mx-auto">
+                                </div>
+                                <small>Thẻ tín dụng, thẻ ghi nợ quốc tế</small>
+                            </div>
+                            <div class="col-3 text-center">
+                                <div class="card p-2 mb-2">
+                                    <img src="https://via.placeholder.com/50x30" alt="ATM" class="img-fluid mx-auto">
+                                </div>
+                                <small>Thẻ ATM</small>
+                            </div>
+                            <div class="col-3 text-center">
+                                <div class="card p-2 mb-2">
+                                    <img src="https://via.placeholder.com/50x30" alt="Mobile Banking" class="img-fluid mx-auto">
+                                </div>
+                                <small>Mobile Banking VietQR</small>
+                            </div>
+                            <div class="col-3 text-center">
+                                <div class="card p-2 mb-2">
+                                    <img src="https://via.placeholder.com/50x30" alt="QR" class="img-fluid mx-auto">
+                                </div>
+                                <small>Quét mã QR VNPAY</small>
+                            </div>
+                        </div>
+                        
+                        <div class="row mb-4">
+                            <div class="col-3 text-center">
+                                <div class="card p-2 mb-2">
+                                    <img src="https://via.placeholder.com/50x30" alt="VNPAY" class="img-fluid mx-auto">
+                                </div>
+                                <small>Thanh toán nội địa VNPAY</small>
+                            </div>
+                            <div class="col-3 text-center">
+                                <div class="card p-2 mb-2">
+                                    <img src="https://via.placeholder.com/50x30" alt="E-wallet" class="img-fluid mx-auto">
+                                </div>
+                                <small>Ví điện tử</small>
+                            </div>
+                            <div class="col-3 text-center">
+                                <div class="card p-2 mb-2">
+                                    <img src="https://via.placeholder.com/50x30" alt="SkyPay" class="img-fluid mx-auto">
+                                </div>
+                                <small>SkyPay</small>
+                            </div>
+                            <div class="col-3 text-center">
+                                <div class="card p-2 mb-2">
+                                    <img src="https://via.placeholder.com/50x30" alt="MoMo" class="img-fluid mx-auto">
+                                </div>
+                                <small>Ví MoMo</small>
+                            </div>
+                        </div>
+                        
+                        <hr class="my-4">
+                        
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center mr-2" style="width: 24px; height: 24px; font-size: 12px;">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+                            <h6 class="mb-0 text-danger">Thanh toán sau</h6>
+                        </div>
+                        
+                        <div class="row mb-4">
+                            <div class="col-3 text-center">
+                                <div class="card p-2 mb-2">
+                                    <img src="https://via.placeholder.com/50x30" alt="Pay Later" class="img-fluid mx-auto">
+                                </div>
+                                <small>Thanh toán sau</small>
+                            </div>
+                            <div class="col-3 text-center">
+                                <div class="card p-2 mb-2">
+                                    <img src="https://via.placeholder.com/50x30" alt="Movi" class="img-fluid mx-auto">
+                                </div>
+                                <small>Bay trước, trả sau</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card details section -->
+                <div class="card mb-4">
+                    <div class="card-header bg-white">
+                        <h5 class="mb-0">Thông tin thẻ</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex mb-3">
+                            <img src="https://via.placeholder.com/40x25" alt="Visa" class="mr-2">
+                            <img src="https://via.placeholder.com/40x25" alt="Mastercard" class="mr-2">
+                            <img src="https://via.placeholder.com/40x25" alt="JCB" class="mr-2">
+                            <img src="https://via.placeholder.com/40x25" alt="Other card" class="mr-2">
+                        </div>
+                        <small class="text-muted d-block mb-3">Thẻ thanh toán có thể áp dụng trên từng hành khách và trên từng chặng.</small>
+                        
+                        <div class="form-group">
+                            <label for="CardNumber">Số thẻ*</label>
+                            <input type="text" id="CardNumber" name="CardNumber" class="form-control" placeholder="Input text" required />
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="CardHolderName">Tên chủ thẻ*</label>
+                                <input type="text" id="CardHolderName" name="CardHolderName" class="form-control" placeholder="Input text" required />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="ThanhPho">Thành phố*</label>
+                                <input type="text" id="ThanhPho" name="ThanhPho" class="form-control" placeholder="Input text" required />
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="NgayHetHan">Ngày hết hạn*</label>
+                                <input type="text" id="NgayHetHan" name="NgayHetHan" class="form-control" placeholder="MM/YY" required />
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="SoCVV">Số CVV*</label>
+                                <input type="text" id="SoCVV" name="SoCVV" class="form-control" placeholder="Input text" required />
+                                <small class="form-text text-muted d-flex align-items-center">
+                                    <i class="fas fa-info-circle mr-1"></i> 3 số cuối in ở mặt sau thẻ
+                                </small>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="TinhBang">Tỉnh/Bang</label>
+                                <input type="text" id="TinhBang" name="TinhBang" class="form-control" placeholder="Input text" />
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="QuocGia">Quốc gia</label>
+                                <input type="text" id="QuocGia" name="QuocGia" class="form-control" placeholder="Input text" />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="MaBuuDien">Mã bưu điện*</label>
+                                <input type="text" id="MaBuuDien" name="MaBuuDien" class="form-control" placeholder="Input text" required />
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="SoDienThoaiChuThe">Số điện thoại của chủ thẻ*</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <img src="https://via.placeholder.com/20x15" alt="Vietnam flag" class="mr-1"> +84
+                                    </span>
+                                </div>
+                                <input type="tel" id="SoDienThoaiChuThe" name="SoDienThoaiChuThe" class="form-control" placeholder="Input text" required />
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="thirdPartyPayment">
+                                <label class="form-check-label" for="thirdPartyPayment">
+                                    Bạn có muốn sử dụng địa chỉ người liên hệ cho địa chỉ thanh toán không?
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Payment summary -->
+                <div class="card mb-4">
+                    <div class="card-header bg-white">
+                        <h5 class="mb-0">Chi tiết thanh toán</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Tạm tính</span>
+                            <span>2,410,200 VND</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2 text-success">
+                            <span>Mã khuyến mãi/Phiếu quà tặng</span>
+                            <span>0 VND</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2 text-info">
+                            <span>Phụ liên ích</span>
+                            <span>108,000 VND</span>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between font-weight-bold">
+                            <span>Tổng tiền</span>
+                            <span>2,518,200 VND</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-danger btn-block">Chi tiết</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Right column for booking information -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header bg-danger text-white">
+                    <h5 class="mb-0">THÔNG TIN ĐẶT CHỖ</h5>
+                </div>
+                <div class="card-body">
+                    <div class="dropdown mb-3">
+                        <button class="btn btn-light dropdown-toggle w-100 text-left" type="button" id="flightInfoDropdown" data-toggle="dropdown">
+                            Thông tin hành khách
+                        </button>
+                    </div>
+                    
+                    <!-- Flight information -->
+                    <div class="bg-light p-2 mb-3">
+                        <h6 class="text-primary">Chuyến đi</h6>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div>
+                                <small>Từ: Hồ Chí Minh (SGN)</small>
+                            </div>
+                            <div class="text-right">
+                                <small>→</small>
+                            </div>
+                            <div class="text-right">
+                                <small>Chu Lai (VCL)</small>
+                            </div>
+                        </div>
+                        <small class="d-block mb-2">T4, 15/04/2025 | 15:15 - 16:35 | VJ1376 | Eco</small>
+                        
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Giá vé</span>
+                            <span class="font-weight-bold">205,200 VND</span>
+                        </div>
+                        
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Thuế, phí</span>
+                            <span class="font-weight-bold">583,400 VND</span>
+                        </div>
+                        
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Dịch vụ</span>
+                            <span class="font-weight-bold">216,000 VND</span>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-light p-2 mb-3">
+                        <h6 class="text-primary">Chuyến về</h6>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div>
+                                <small>Chu Lai (VCL)</small>
+                            </div>
+                            <div class="text-right">
+                                <small>→</small>
+                            </div>
+                            <div class="text-right">
+                                <small>Tp. Hồ Chí Minh (SGN)</small>
+                            </div>
+                        </div>
+                        <small class="d-block mb-2">T2, 21/05/2025 | 12:15 - 13:35 | VJ1275 | Eco</small>
+                        
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Giá vé</span>
+                            <span class="font-weight-bold">421,200 VND</span>
+                        </div>
+                        
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Thuế, phí</span>
+                            <span class="font-weight-bold">563,400 VND</span>
+                        </div>
+                        
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Dịch vụ</span>
+                            <span class="font-weight-bold">216,000 VND</span>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-light p-2 mb-3">
+                        <h6 class="text-primary">Dịch vụ bổ sung</h6>
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Bảo hiểm du lịch VietJet Travel Safe</span>
+                            <span class="font-weight-bold">205,000 VND</span>
+                        </div>
+                        <small class="d-block mb-1">BaoViet Insurance</small>
+                        
+                        <div class="d-flex justify-content-between mb-1">
+                            <span>Thuế VAT</span>
+                            <span class="font-weight-bold">0</span>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-danger text-white p-2 mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>Tổng tiền</span>
+                            <span class="font-weight-bold">2,410,200 VND</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Booking_Airline.Models
+namespace Airlines_Ticket_WebApp.Models
 {
     public class Customer
     {

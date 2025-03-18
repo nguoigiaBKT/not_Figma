@@ -1,66 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\",
+  "WorkspaceRootPath": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101422_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Airlines_Ticket_WebApp\\Migrations\\20250315101422_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\hutech\\laptrinhweb\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\hutech\\laptrinhweb\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\models\\origin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\models\\origin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\views\\tickets\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\views\\tickets\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101331_v4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Airlines_Ticket_WebApp\\Migrations\\20250315101331_v4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101204_v3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Airlines_Ticket_WebApp\\Migrations\\20250315101204_v3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\views\\tickets\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\views\\tickets\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101050_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Airlines_Ticket_WebApp\\Migrations\\20250315101050_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315100744_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Airlines_Ticket_WebApp\\Migrations\\20250315100744_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\views\\flights\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\views\\flights\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\hutech\\laptrinhweb\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\hutech\\laptrinhweb\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\hutech\\laptrinhweb\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\models\\flightdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\models\\flightdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\hutech\\laptrinhweb\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\hutech\\laptrinhweb\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\hutech\\laptrinhweb\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\hutech\\laptrinhweb\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\hutech\\laptrinhweb\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\views\\flights\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\views\\flights\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\airlines_ticket_webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\airlines_ticket_webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\models\\flightdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\models\\flightdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101331_v4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101204_v3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101050_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315100744_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|d:\\datadownloaded\\webclone\\not_figma\\airlines_ticket_webapp\\airlines_ticket_webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B96063A-2530-4983-889E-551203932459}|Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj|solutionrelative:airlines_ticket_webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,177 +86,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAACwAAAAAAAAAAADwv0UAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-15T08:39:50.323Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250315101422_v1.cs",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101422_v1.cs",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Migrations\\20250315101422_v1.cs",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101422_v1.cs",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\Migrations\\20250315101422_v1.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:14:22.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250315101331_v4.cs",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101331_v4.cs",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Migrations\\20250315101331_v4.cs",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101331_v4.cs",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\Migrations\\20250315101331_v4.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:13:31.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Origin.cs",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\Origin.cs",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Models\\Origin.cs",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\Origin.cs",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\Models\\Origin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:13:09.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250315101204_v3.cs",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101204_v3.cs",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Migrations\\20250315101204_v3.cs",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101204_v3.cs",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\Migrations\\20250315101204_v3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:12:04.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20250315101050_v2.cs",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101050_v2.cs",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Migrations\\20250315101050_v2.cs",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101050_v2.cs",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\Migrations\\20250315101050_v2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:10:50.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Flight.cs",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\Flight.cs",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Models\\Flight.cs",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\Flight.cs",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\Models\\Flight.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:09:51.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20250315100744_v1.cs",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315100744_v1.cs",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Migrations\\20250315100744_v1.cs",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315100744_v1.cs",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\Migrations\\20250315100744_v1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:07:44.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:05:41.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T10:04:53.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T07:30:01.984Z",
+              "IsPinned": true
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FlightDBContext.cs",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\FlightDBContext.cs",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Models\\FlightDBContext.cs",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\FlightDBContext.cs",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\Models\\FlightDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:01:09.004Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Program.cs",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Program.cs",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Program.cs",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:00:03.509Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\appsettings.json",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\appsettings.json",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-15T09:58:08.877Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",
@@ -248,37 +123,236 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T15:14:51.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Models\\Ticket.cs",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\Ticket.cs",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T14:54:12.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Payment.cshtml",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Tickets\\Payment.cshtml",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Views\\Tickets\\Payment.cshtml",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Tickets\\Payment.cshtml",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Views\\Tickets\\Payment.cshtml",
+              "ViewState": "AgIAAEcBAAAAAAAAAAAAAHYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T14:31:01.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Booking.cshtml",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Tickets\\Booking.cshtml",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Views\\Tickets\\Booking.cshtml",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Tickets\\Booking.cshtml",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Views\\Tickets\\Booking.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T16:50:36.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Flights\\Search.cshtml",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Views\\Flights\\Search.cshtml",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Flights\\Search.cshtml",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Views\\Flights\\Search.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAkwHIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T10:23:56.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Controllers\\TicketsController.cs",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Controllers\\TicketsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T15:35:07.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Flights\\Create.cshtml",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Views\\Flights\\Create.cshtml",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Flights\\Create.cshtml",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Views\\Flights\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T16:47:16.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Models\\Booking.cs",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\Booking.cs",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T16:45:42.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Models\\Customer.cs",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\Customer.cs",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:37:41.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAUwKkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-15T08:39:50.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Airlines_Ticket_WebApp.csproj",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-16T11:45:12.849Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T07:30:53.112Z",
-              "EditorCaption": ""
+              "Title": "FlightDBContext.cs",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\FlightDBContext.cs",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Models\\FlightDBContext.cs",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Models\\FlightDBContext.cs",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Models\\FlightDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T10:01:09.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FlightsController.cs",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Controllers\\FlightsController.cs",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Controllers\\FlightsController.cs",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Controllers\\FlightsController.cs",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Controllers\\FlightsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T15:40:30.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250315101204_v3.cs",
+              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101204_v3.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101204_v3.cs",
+              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101204_v3.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101204_v3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T10:12:04.756Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Airlines_Ticket_WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAIBJwAkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T07:30:01.984Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\appsettings.json",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\appsettings.json",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-15T09:58:08.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250315101331_v4.cs",
+              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101331_v4.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101331_v4.cs",
+              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101331_v4.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101331_v4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T10:13:31.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250315101050_v2.cs",
+              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101050_v2.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101050_v2.cs",
+              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101050_v2.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315101050_v2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T10:10:50.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250315100744_v1.cs",
+              "DocumentMoniker": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315100744_v1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315100744_v1.cs",
+              "ToolTip": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315100744_v1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Migrations\\20250315100744_v1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T10:07:44.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Airlines_Ticket_WebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\DataDownloaded\\webclone\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Airlines_Ticket_WebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T10:05:41.179Z"
             }
           ]
         }

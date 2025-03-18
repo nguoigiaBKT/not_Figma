@@ -1,0 +1,130 @@
+﻿@model IEnumerable<Airlines_Ticket_WebApp.Models.Flight>
+
+@{
+    ViewData["Title"] = "Search Flights";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/globals.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .form-section {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .results-section {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .price-details {
+            background-color: #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .btn-submit {
+            background-color: #6c63ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+
+        .info-alert {
+            background-color: #f8d7da;
+            color: #721c24;
+            border-color: #f5c6cb;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Search Flights</h1>
+
+        <div class="form-section">
+            <form method="post">
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="departure">Departure:</label>
+                        <input type="text" id="departure" name="departure" class="form-control" required />
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="destination">Destination:</label>
+                        <input type="text" id="destination" name="destination" class="form-control" required />
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="departureTime">Departure Time:</label>
+                        <input type="date" id="departureTime" name="departureTime" class="form-control" required />
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-submit">Search</button>
+            </form>
+        </div>
+
+        @if (Model != null && Model.Any())
+        {
+            <div class="results-section">
+                <h2>Available Flights</h2>
+                <table class="table table-striped mt-3">
+                    <thead>
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.Airline)</th>
+                            <th>@Html.DisplayNameFor(model => model.Origin.Origin_City)</th>
+                            <th>@Html.DisplayNameFor(model => model.Destination.Destination_City)</th>
+                            <th>@Html.DisplayNameFor(model => model.DepartureTime)</th>
+                            <th>@Html.DisplayNameFor(model => model.ArrivalTime)</th>
+                            <th>@Html.DisplayNameFor(model => model.Status)</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Airline)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Origin.Origin_City)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Destination.Destination_City)</td>
+                                <td>@Html.DisplayFor(modelItem => item.DepartureTime)</td>
+                                <td>@Html.DisplayFor(modelItem => item.ArrivalTime)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.FlightId" class="btn btn-link">Edit</a> |
+                                    <a asp-action="Details" asp-route-id="@item.FlightId" class="btn btn-link">Details</a> |
+                                    <a asp-action="Delete" asp-route-id="@item.FlightId" class="btn btn-link">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <p class="text-danger">No flights found.</p>
+        }
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

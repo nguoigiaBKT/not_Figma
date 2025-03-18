@@ -1,0 +1,95 @@
+﻿@model Airlines_Ticket_WebApp.Models.LoginViewModel
+@{
+    ViewData["Title"] = "Đăng nhập";
+}
+
+<div class="login-container">
+    <div class="form-box login">
+        <form asp-action="Login" method="post">
+            <h1>Đăng nhập</h1>
+            <div class="input-box">
+                <input asp-for="Email" type="email" placeholder="Email" required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input asp-for="Password" type="password" placeholder="Mật khẩu" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="forgot-link">
+                <a href="#">Quên mật khẩu?</a>
+            </div>
+            <button type="submit" class="login-btn">Đăng nhập</button>
+            <p>hoặc đăng nhập với</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-google'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </form>
+    </div>
+
+    <div class="form-box register">
+        <form asp-action="Register" method="post">
+            <h1>Đăng ký</h1>
+            <div class="input-box">
+                <input asp-for="FullName" type="text" placeholder="Họ và tên" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input asp-for="Email" type="email" placeholder="Email" required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input asp-for="Password" type="password" placeholder="Mật khẩu" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="input-box">
+                <input asp-for="ConfirmPassword" type="password" placeholder="Xác nhận mật khẩu" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <button type="submit" class="login-btn">Đăng ký</button>
+            <p>hoặc đăng ký với</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-google'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </form>
+    </div>
+
+    <div class="toggle-box">
+        <div class="toggle-panel toggle-left">
+            <h1>Xin chào!</h1>
+            <p>Chưa có tài khoản?</p>
+            <button class="login-btn register-btn">Đăng ký</button>
+        </div>
+
+        <div class="toggle-panel toggle-right">
+            <h1>Chào mừng trở lại!</h1>
+            <p>Đã có tài khoản?</p>
+            <button class="login-btn login-btn">Đăng nhập</button>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+}
+
+@section Scripts {
+    <script>
+        const container = document.querySelector('.login-container');
+        const registerBtn = document.querySelector('.register-btn');
+        const loginBtn = document.querySelector('.login-btn');
+
+        registerBtn.addEventListener('click', () => {
+            container.classList.add('active');
+        })
+
+        loginBtn.addEventListener('click', () => {
+            container.classList.remove('active');
+        })
+    </script>
+} 
