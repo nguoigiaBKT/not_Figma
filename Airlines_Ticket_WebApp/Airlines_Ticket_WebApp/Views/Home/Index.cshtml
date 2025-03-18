@@ -3,7 +3,7 @@
 }
 <div class="position-relative">
     <!-- Ảnh nền -->
-    <img src="/images/bgv4.jpg" class="img-fluid w-100" style="height: 100vh; object-fit: cover;" alt="Background">
+    <img src="/images/pexels-pixabay-46148.jpg" class="img-fluid w-100" style="height: 100vh; object-fit: cover;" alt="Background">
 
     <!-- Lớp phủ mờ -->
     <div class="position-absolute top-0 start-0 w-100 h-100 background-overlay d-flex flex-column align-items-center justify-content-center text-white text-center">
@@ -17,7 +17,7 @@
                 <form>
                     <div class="mb-3">
                         <label class="form-label">Loại vé:</label>
-                        <div class="d-flex gap-3">
+                        <div class="d-flex gap-3 justify-content-center">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="tripType" id="oneWay" value="one-way" checked>
                                 <label class="form-check-label" for="oneWay">Một chiều</label>
@@ -28,6 +28,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="mb-3 form-floating-custom">
                         <input type="text" id="diemDi" class="form-control" placeholder=" " required>
                         <label for="diemDi" class="form-label">Điểm đi</label>
@@ -59,21 +60,33 @@
 </style>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
+            document.addEventListener("DOMContentLoaded", function () {
         const oneWay = document.getElementById("oneWay");
         const roundWay = document.getElementById("roundWay");
         const returnDateGroup = document.getElementById("returnDateGroup");
 
-        oneWay.addEventListener("change", function () {
-            returnDateGroup.style.display = "none";
-        });
+        function hideReturnDate() {
+            returnDateGroup.classList.remove("show"); // Bắt đầu ẩn từ từ
+            setTimeout(() => {
+                returnDateGroup.style.display = "none"; // Sau khi hiệu ứng kết thúc, mới ẩn hoàn toàn
+            }, 300); // 300ms trùng với CSS transition
+        }
 
-        roundWay.addEventListener("change", function () {
-            returnDateGroup.style.display = "block";
-        });
+        function showReturnDate() {
+            returnDateGroup.style.display = "block"; // Hiển thị trước khi thêm hiệu ứng
+            setTimeout(() => {
+                returnDateGroup.classList.add("show"); // Kích hoạt hiệu ứng fade-in
+            }, 10);
+        }
 
+        oneWay.addEventListener("change", hideReturnDate);
+        roundWay.addEventListener("change", showReturnDate);
+
+        // Ẩn ô ngày về nếu chọn "Một chiều" khi load trang
         if (oneWay.checked) {
             returnDateGroup.style.display = "none";
         }
     });
+
+
 </script>

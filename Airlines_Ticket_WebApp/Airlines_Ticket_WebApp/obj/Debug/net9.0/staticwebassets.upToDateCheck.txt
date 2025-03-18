@@ -67,6 +67,7 @@ wwwroot\images\bgv3.jpg
 wwwroot\images\bgv4.jpg
 wwwroot\images\May-Bay-Nga.Jpg3.jpg
 wwwroot\images\mb_background.jpg
+wwwroot\images\pexels-pixabay-46148.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

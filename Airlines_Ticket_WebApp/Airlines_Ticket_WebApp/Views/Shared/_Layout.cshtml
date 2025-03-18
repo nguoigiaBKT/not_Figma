@@ -13,9 +13,11 @@
             background-color: #1a1a1a;
             color: white;
         }
+
         .navbar {
             background-color: #ff4c4c;
         }
+
         .footer {
             background-color: #222;
             padding: 20px;
@@ -33,16 +35,15 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="/">Trang Chủ</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/Flight/Search">Tìm Chuyến Bay</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/Ticket/Booking">Đặt Vé</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/Account/Login"><i class="fas fa-user"></i> Đăng Nhập</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/services">Dịch Vụ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact">Liên Hệ</a></li>
                 </ul>
+				<partial name="_LoginPartial" />
             </div>
         </div>
     </nav>
 
-        @RenderBody()
-
+    @RenderBody()
 
     <footer class="footer mt-4">
         <p>&copy; 2025 Hệ thống đặt vé máy bay. Mọi quyền được bảo lưu.</p>
@@ -54,5 +55,7 @@
     <script>
         AOS.init();
     </script>
+    @RenderSection("Scripts", required: false)
+
 </body>
 </html>

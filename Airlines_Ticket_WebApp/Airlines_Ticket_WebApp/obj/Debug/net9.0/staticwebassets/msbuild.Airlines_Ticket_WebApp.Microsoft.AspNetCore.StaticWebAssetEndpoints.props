@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"flo0je849d"},{"Name":"integrity","Value":"sha256-g\u002Beq3G0asJM1bbCK25EshHQE9gQMpbGEbZfY7BtKlaQ="},{"Name":"label","Value":"_content/Airlines_Ticket_WebApp/Airlines_Ticket_WebApp.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022g\u002Beq3G0asJM1bbCK25EshHQE9gQMpbGEbZfY7BtKlaQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 07:30:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Airlines_Ticket_WebApp/css/site.apjjx5cuhs.css">
+    <StaticWebAssetEndpoint Include="_content/Airlines_Ticket_WebApp/css/site.8anuv058wb.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"apjjx5cuhs"},{"Name":"integrity","Value":"sha256-guDdle51rDiaSUZjpsOrUS1Jhl9vu2BTtkcUVCExEDg="},{"Name":"label","Value":"_content/Airlines_Ticket_WebApp/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1602"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022guDdle51rDiaSUZjpsOrUS1Jhl9vu2BTtkcUVCExEDg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 09:36:31 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8anuv058wb"},{"Name":"integrity","Value":"sha256-YKB5103jb18TGLkCVR2sr3Pf5cRHNZ5nE5MnfFGSm60="},{"Name":"label","Value":"_content/Airlines_Ticket_WebApp/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2960"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022YKB5103jb18TGLkCVR2sr3Pf5cRHNZ5nE5MnfFGSm60=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 10:53:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Airlines_Ticket_WebApp/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-guDdle51rDiaSUZjpsOrUS1Jhl9vu2BTtkcUVCExEDg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1602"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022guDdle51rDiaSUZjpsOrUS1Jhl9vu2BTtkcUVCExEDg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 09:36:31 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YKB5103jb18TGLkCVR2sr3Pf5cRHNZ5nE5MnfFGSm60="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2960"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022YKB5103jb18TGLkCVR2sr3Pf5cRHNZ5nE5MnfFGSm60=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 10:53:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Airlines_Ticket_WebApp/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -95,6 +95,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XZJa46V2BvayerSBfwtzmVSsTNY2jeHYqpJR/Sh9dHk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"71565"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022XZJa46V2BvayerSBfwtzmVSsTNY2jeHYqpJR/Sh9dHk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 08:12:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Airlines_Ticket_WebApp/images/pexels-pixabay-46148.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pexels-pixabay-46148.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jbnhZ/FxQAjBFDrwBneQkLIXO96DIPHEF\u002Bm/DHux5J0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"324744"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jbnhZ/FxQAjBFDrwBneQkLIXO96DIPHEF\u002Bm/DHux5J0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 04:22:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Airlines_Ticket_WebApp/images/pexels-pixabay-46148.r649p0dl4x.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pexels-pixabay-46148.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r649p0dl4x"},{"Name":"integrity","Value":"sha256-jbnhZ/FxQAjBFDrwBneQkLIXO96DIPHEF\u002Bm/DHux5J0="},{"Name":"label","Value":"_content/Airlines_Ticket_WebApp/images/pexels-pixabay-46148.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"324744"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jbnhZ/FxQAjBFDrwBneQkLIXO96DIPHEF\u002Bm/DHux5J0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 04:22:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Airlines_Ticket_WebApp/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Airlines_Ticket_WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f483723d9e7bbee48f27cc8c96313957ba36a0f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e39d20b40456116caa974353b78f84d14a15293")]
 [assembly: System.Reflection.AssemblyProductAttribute("Airlines_Ticket_WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Airlines_Ticket_WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\images\\mb_background.jpg"
     },
     {
+      "Id": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\wwwroot\\images\\pexels-pixabay-46148.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-pixabay-46148.jpg"
+    },
+    {
       "Id": "D:\\HUTECH\\LapTrinhWeb\\not_Figma\\Airlines_Ticket_WebApp\\Airlines_Ticket_WebApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

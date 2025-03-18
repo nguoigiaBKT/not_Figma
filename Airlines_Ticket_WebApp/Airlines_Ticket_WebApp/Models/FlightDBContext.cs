@@ -1,9 +1,10 @@
 ﻿using Booking_Airline.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Airlines_Ticket_WebApp.Models
 {
-    public class FlightDBContext : DbContext
+    public class FlightDBContext : IdentityDbContext
     {
         public FlightDBContext(DbContextOptions<FlightDBContext> options) : base(options)
         {
